@@ -28,5 +28,13 @@ public class HelloWorld extends HttpServlet {
 
     }
 
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "HelloWorld{" +
+                "message='" + message + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 
