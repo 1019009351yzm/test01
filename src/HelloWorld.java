@@ -9,6 +9,7 @@ public class HelloWorld extends HttpServlet {
     private  String message;
     private  String name;
     private  int age;
+    private int count;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
